@@ -1,0 +1,4 @@
+jdbcUrl = jdbc:mysql://127.0.0.1:3306/t1lottery?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = root
+password =eric.ren2001
+devMode = true

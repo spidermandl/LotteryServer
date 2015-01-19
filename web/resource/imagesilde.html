@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script language="text/javascript" src="jquery-2.0.3.min.js"></script>
+    <script language="text/javascript" src="slide.js"></script>
+</head>
+<body>
+<div id="mygalleryinpost" class="svw">
+    <ul>
+        <li><img src="picts/1.jpg" alt="my description for this image" /></li>
+        <li><img src="picts/2.jpg" alt="this is my dog..." /></li>
+        <li><img src="picts/3.jpg" alt="my dog eating the cat" /></li>
+        <li><img src="picts/4.jpg" alt="my r/c helicopter crashing..." /></li>
+        <li><img src="picts/5.jpg" alt="my r/c helicopter crashing..." /></li>
+        <li><img src="picts/6.jpg" alt="my r/c helicopter crashing..." /></li>
+        <li><img src="picts/7.jpg" alt="my r/c helicopter crashing..." /></li>
+        <li><img src="picts/8.jpg" alt="my r/c helicopter crashing..." /></li>
+        <li><img src="picts/9.jpg" alt="my r/c helicopter crashing..." /></li>
+        <!--eccetera-->
+    </ul>
+</div>
+
+<script type="text/javascript">
+    $(window).bind("load", function() {
+        $("div#mygalleryinpost").slideView()
+    });
+</script>
+</body>
+</html>
